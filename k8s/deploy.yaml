@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: 172.17.0.1:32000/spring-boot-sample:IMAGE_TAG
+          image: localhost:32000/spring-boot-sample:IMAGE_TAG
           resources:
             requests:
               memory: "64Mi"
